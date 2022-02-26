@@ -1,5 +1,6 @@
 html {
     background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .logo {
@@ -13,18 +14,6 @@ html {
 
 .body_img {
     width: 100%;
-}
-
-.heroBtn1:hover {
-    color: var(--hover);
-}
-
-.heroBtn2:hover {
-    color: var(--hover);
-}
-
-.heroBtn3:hover {
-    color: var(--hover);
 }
 
 @media screen and (min-width: 600px) and (max-width: 1450px) {
