@@ -234,11 +234,11 @@
                                     <div class="row">
                                         <div class="mb-3 col-12 col-md-8 p-0">
                                             <label for="exampleFormControlInput1" class="form-label">Name</label>
-                                            <input v-model="username" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your name . . .">
+                                            <input v-model="username" type="text" class="form-control" placeholder="Your name . . .">
                                         </div>
                                         <div class="mb-3 col-12 col-md-8 p-0">
                                             <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                                            <textarea v-model="message" class="form-control" placeholder="Message" id="exampleFormControlTextarea1" rows="5"></textarea>
+                                            <textarea v-model="message" class="form-control" placeholder="Message" rows="5"></textarea>
                                         </div>
                                         <div @click="send()" class="btn btn-success col-12 col-md-8" value="Send">Send</div>
                                     </div>
@@ -316,6 +316,7 @@
         </div>
 
 
+
         <!-- Footer -->
         <div class="footer container-fluid text-light small fw-bold">
 
@@ -349,7 +350,7 @@
                             <p>Call us with any Question !</p>
                             <p>
                                 <i class="fab fa-whatsapp fw-bold"> Whatsapp :</i>
-                                <a class="text-decoration-none text-light" href="tel:+1 (703) 869-2117">+1 (703) 869-2117</a>
+                                <a class="text-decoration-none text-light" href="https://api.whatsapp.com/send?phone=+1 (703) 869-2117">+1 (703) 869-2117</a>
                             </p>
                         </div>
                         <hr>
@@ -440,20 +441,9 @@
                         }
                     },
                     send() {
-                        const redirect = 'https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&su=MESSAGE+FROM+THIDAAUTOCENTER.COM&to=pikachulay123@gmail.com';
-                        $.ajax({
-                            method: "post",
-                            url: redirect,
-                            data: {
-                                username: this.username,
-                                message: this.message
-                            },
-                            success: (res) => {
-                                console.log("Sent");
-                                // location.href = "contact.html";
-                            },
-                            error: (e) => console.log(e)
-                        })
+                        const link = `https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&su=MESSAGE+FROM+THIDAAUTOCENTER.COM&to=pikachulay123@gmail.com&body=<h3>${this.username}</h3><br>${this.message}`;
+                        const redirect = 'mailto:pikachulay123@gmail.com?subject=MESSAGE FROM THIDAAUTOCENTER.COM';
+                        location.href = link;
                     }
                 }
             })
