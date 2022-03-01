@@ -443,8 +443,8 @@
                     },
                     send() {
                         const link = `https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&su=MESSAGE+FROM+THIDAAUTOCENTER.COM&to=pikachulay123@gmail.com&body=<h3>${this.username}</h3><br>${this.message}`;
-                        const redirect = 'mailto:pikachulay123@gmail.com?subject=MESSAGE FROM THIDAAUTOCENTER.COM';
-                        location.href = link;
+                        const redirect = `mailto:pikachulay123@gmail.com?subject=MESSAGE FROM THIDAAUTOCENTER.COM&body=<h3>${this.username}</h3><br>${this.message}`;
+                        location.href = redirect;
                     }
                 }
             })
