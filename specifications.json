@@ -16,20 +16,21 @@
         "desc": "THE WORLD'S MOST ICONIC JEEP HAS BEEN ELECTRIFIED! THE NEW HYBRID 4XE WRANGLER PLUG-IN HAS ARRIVED!!! WITH UNMATCHED JEEP FUN CAPABILITY, YOU GET THE BEST OF BOTH WORLDS... THEY'VE GONE ELECTRIC! DRIVE THE \" HOV LANE \" BY YOURSELF! ENJOY INCREDIBLE MILEAGE, REDUCED EMISSIONS, AND THE JEEP WE LOVE TO GO ANYWHERE AND DO ANYTHING! BE THE FIRST TO PARTICIPATE IN JEEP'S FUTURE AND #PLUGINWITHPEEL! CHECK OUT THE \" PLUG SHARE APP \" FOR THOUSANDS OF PLACES TO CHARGE, MANY OF WHICH ARE FREE!!"
     },
     {
-        "make": "Jeep",
-        "model": "Wrangler",
+        "name": "2022 Ram 1500 TRX",
+        "make": "Ram",
+        "model": "1500",
         "year": 2022,
-        "engine": "2.0L 4cyl",
-        "trim": "Rubicon",
-        "transmission": "Automatic",
+        "engine": "6.2L V8 16V MPFI OHV Supercharged",
+        "trim": "1500 TRX 4x4",
+        "transmission": "8-speed Automatic",
         "body": "SUV, Crossover",
-        "colour": "White",
-        "fuel": "Other",
+        "colour": "Black",
+        "fuel": "Gasoline",
         "type": "New",
         "images": [
-            "specifications/JeepWrangler/s-l640.webp", "specifications/JeepWrangler/s-l6401.webp", "specifications/JeepWrangler/s-l6402.webp"
+            "specifications/RAM1500TRX/1.webp", "specifications/RAM1500TRX/2.webp", "specifications/RAM1500TRX/3.webp"
         ],
-        "desc": "THE WORLD'S MOST ICONIC JEEP HAS BEEN ELECTRIFIED! THE NEW HYBRID 4XE WRANGLER PLUG-IN HAS ARRIVED!!! WITH UNMATCHED JEEP FUN CAPABILITY, YOU GET THE BEST OF BOTH WORLDS... THEY'VE GONE ELECTRIC! DRIVE THE \" HOV LANE \" BY YOURSELF! ENJOY INCREDIBLE MILEAGE, REDUCED EMISSIONS, AND THE JEEP WE LOVE TO GO ANYWHERE AND DO ANYTHING! BE THE FIRST TO PARTICIPATE IN JEEP'S FUTURE AND #PLUGINWITHPEEL! CHECK OUT THE \" PLUG SHARE APP \" FOR THOUSANDS OF PLACES TO CHARGE, MANY OF WHICH ARE FREE!!"
+        "desc": "Adaptive Cruise Control \n Heated Seats \n Heated Steering Wheel \n Keyless Start \n Navigation System \n Remote Start "
     },
     {
         "make": "Jeep",

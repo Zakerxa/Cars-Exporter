@@ -182,8 +182,8 @@
                             </div>
                         </div>
 
-                        <div class="col-12 col-md-6">
-                            <div class="row pt-2 pt-md-0">
+                        <div class="col-12 col-md-6 small">
+                            <div class="row pt-2 pt-md-0 p-0">
                                 <div class="col-5 pt-2 pt-md-0 pb-2 pb-md-4 fw-bold">
                                     <h5 class="d-none d-md-block"> <span class="text-muted"> Condition :</span> {{specifications.type}}</h5>
                                     <p class="d-md-none"> <span class="text-muted"> Condition :</span> {{specifications.type}}</p>
@@ -200,38 +200,46 @@
                                     <h5 class="d-none d-md-block"><span class="text-muted">Model :</span> {{specifications.model}}</h5>
                                     <p class="d-md-none"><span class="text-muted">Model :</span> {{specifications.model}}</p>
                                 </div>
+
+
                                 <div class="col-5 pt-2 pb-2 pt-md-4 pb-md-4 fw-bold">
-                                    <h5 class="d-none d-md-block"><span class="text-muted">Engine :</span> {{specifications.engine}}</h5>
-                                    <p class="d-md-none"><span class="text-muted">Engine :</span> {{specifications.engine}}</p>
+                                    <h5 class="d-none d-md-block"><span class="text-muted">Fuel :</span> {{specifications.fuel}}</h5>
+                                    <p class="d-md-none"><span class="text-muted">Fuel :</span> {{specifications.fuel}}</p>
                                 </div>
+
+
                                 <div class="col-7 pt-2 pb-2 pt-md-4 pb-md-4 fw-bold">
-                                    <h5 class="d-none d-md-block"> <span class="text-muted">Body Style : </span>{{specifications.body}}</h5>
-                                    <p class="d-md-none"> <span class="text-muted">Body Style : </span>{{specifications.body}}</p>
+                                    <h5 class="d-none d-md-block"><span class="text-muted">Colour :</span> {{specifications.colour}}</h5>
+                                    <p class="d-md-none"><span class="text-muted">Colour :</span> {{specifications.colour}}</p>
                                 </div>
                                 <div class="col-5 pt-2 pb-2 pt-md-4 pb-md-4 fw-bold">
                                     <h5 class="d-none d-md-block"> <span class="text-muted">Trim :</span> {{specifications.trim}}</h5>
                                     <p class="d-md-none"> <span class="text-muted">Trim :</span> {{specifications.trim}}</p>
                                 </div>
                                 <div class="col-7 pt-2 pb-2 pt-md-4 pb-md-4 fw-bold">
+                                    <h5 class="d-none d-md-block"> <span class="text-muted">Body Style : </span>{{specifications.body}}</h5>
+                                    <p class="d-md-none"> <span class="text-muted">Body Style : </span>{{specifications.body}}</p>
+                                </div>
+                                <div class="col-5 pt-2 pb-2 pt-md-4 pb-md-4 fw-bold">
+                                    <h5 class="d-none d-md-block"><span class="text-muted">Engine :</span> {{specifications.engine}}</h5>
+                                    <p class="d-md-none"><span class="text-muted">Engine :</span> {{specifications.engine}}</p>
+                                </div>
+
+                                <div class="col-7 pt-2 pb-2 pt-md-4 pb-md-4 fw-bold">
                                     <h5 class="d-none d-md-block"><span class="text-muted">Transmission :</span> {{specifications.transmission}}</h5>
                                     <p class="d-md-none"><span class="text-muted">Transmission :</span> {{specifications.transmission}}</p>
                                 </div>
-                                <div class="col-5 pt-2 pb-2 pt-md-4 pb-md-4 fw-bold">
-                                    <h5 class="d-none d-md-block"><span class="text-muted">Fuel :</span> {{specifications.fuel}}</h5>
-                                    <p class="d-md-none"><span class="text-muted">Fuel :</span> {{specifications.fuel}}</p>
-                                </div>
-                                <div class="col-7 pt-2 pb-2 pt-md-4 pb-md-4 fw-bold">
-                                    <h5 class="d-none d-md-block"><span class="text-muted">Colour :</span> {{specifications.colour}}</h5>
-                                    <p class="d-md-none"><span class="text-muted">Colour :</span> {{specifications.colour}}</p>
-                                </div>
+
+
                             </div>
                         </div>
 
                         <div class="col-12 pb-3">
                             <hr>
                             <h4>Description</h4>
+
                             <p class="p-1">
-                                {{specifications.desc}}
+                                {{desc}}
                             </p>
                         </div>
 
@@ -380,7 +388,8 @@
                         year: '',
                         specifications: '',
                         images: [],
-                        index: 0
+                        index: 0,
+                        desc: ''
                     }
                 },
                 methods: {
@@ -428,6 +437,9 @@
                         if (list != undefined) {
                             this.specifications = list;
                             this.images = this.specifications.images;
+                            this.desc = this.specifications.desc;
+                            let t = this.specifications.desc;
+                            console.log(JSON.parse(JSON.stringify(t)))
                             this.fetchLoading = 'stop';
                         } else {
                             this.fetchLoading = '404';
