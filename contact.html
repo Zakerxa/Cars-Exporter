@@ -443,7 +443,7 @@
                     },
                     send() {
                         // const link = `https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&su=MESSAGE+FROM+THIDAAUTOCENTER.COM&to=pikachulay123@gmail.com&body=<h3>${this.username}</h3><br>${this.message}`;
-                        const redirect = `mailto:info@zakerxa.com?mailto:?Content-type=text/html&subject=MESSAGE FROM THIDAAUTOCENTER.COM&body=Name : ${this.username}%0D%0A, About : ${this.message}`;
+                        const redirect = `mailto:info@zakerxa.com?mailto:?Content-type=text/html&subject=MESSAGE FROM THIDAAUTOCENTER.COM&body=Name : ${this.username},%0D%0A ${this.message}`;
                         location.href = redirect;
                         this.username = '';
                         this.message = '';
