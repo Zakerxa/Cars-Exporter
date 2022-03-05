@@ -1,19 +1,19 @@
 [{
         "name": "2022 Jeep Wrangler Unlimited 4xe Rubicon",
         "make": "Jeep",
-        "model": "Wrangler",
+        "model": "Wrangler Unlimited Rubicon",
         "year": 2022,
         "engine": "2.0L 4cyl",
-        "trim": "Rubicon",
+        "trim": "4XE",
         "transmission": "Automatic",
         "body": "SUV, Crossover",
         "colour": "White",
-        "fuel": "Other",
+        "fuel": "Plug-in hybrid",
         "type": "New",
         "images": [
-            "specifications/JeepWrangler/s-l640.webp", "specifications/JeepWrangler/s-l6401.webp", "specifications/JeepWrangler/s-l6402.webp"
+            "specifications/JeepWrangler/s-l640.webp", "specifications/JeepWrangler/s-l6402.webp", "specifications/JeepWrangler/s-l6401.webp", "specifications/JeepWrangler/s-l6403.webp"
         ],
-        "desc": "THE WORLD'S MOST ICONIC JEEP HAS BEEN ELECTRIFIED! THE NEW HYBRID 4XE WRANGLER PLUG-IN HAS ARRIVED!!! WITH UNMATCHED JEEP FUN CAPABILITY, YOU GET THE BEST OF BOTH WORLDS... THEY'VE GONE ELECTRIC! DRIVE THE \" HOV LANE \" BY YOURSELF! ENJOY INCREDIBLE MILEAGE, REDUCED EMISSIONS, AND THE JEEP WE LOVE TO GO ANYWHERE AND DO ANYTHING! BE THE FIRST TO PARTICIPATE IN JEEP'S FUTURE AND #PLUGINWITHPEEL! CHECK OUT THE \" PLUG SHARE APP \" FOR THOUSANDS OF PLACES TO CHARGE, MANY OF WHICH ARE FREE!!"
+        "desc": "The Rubicon 4xe includes an electronic disconnecting sway bar for improved wheel articulation. Standard conveniences closely mirror the Sahara 4xe and include the 8.4-inch Uconnect 4C infotainment system, automatic LED headlights, LED fog lights, ambient LED interior lighting, and automatic climate control."
     },
     {
         "name": "2022 Ram 1500 TRX",
@@ -21,63 +21,117 @@
         "model": "1500",
         "year": 2022,
         "engine": "6.2L V8 16V MPFI OHV Supercharged",
-        "trim": "1500 TRX 4x4",
+        "trim": "TRX",
         "transmission": "8-speed Automatic",
-        "body": "SUV, Crossover",
+        "body": "Pickup Truck",
         "colour": "Black",
         "fuel": "Gasoline",
         "type": "New",
         "images": [
-            "specifications/RAM1500TRX/1.webp", "specifications/RAM1500TRX/2.webp", "specifications/RAM1500TRX/3.webp"
+            "specifications/RAM1500TRX/1.webp", "specifications/RAM1500TRX/2.webp", "specifications/RAM1500TRX/3.webp", "specifications/RAM1500TRX/4.webp"
         ],
-        "desc": "Adaptive Cruise Control \n Heated Seats \n Heated Steering Wheel \n Keyless Start \n Navigation System \n Remote Start "
+        "desc": "If you’re looking to blend in, keep looking. With eight extra inches of overall width, massive 35-inch tires and a menacing stance, TRX is unlike anything else on the road."
     },
     {
-        "make": "Jeep",
-        "model": "Wrangler",
+        "name": "Chevrolet Corvette Stingray",
+        "make": "Chevrolet",
+        "model": "Corvette Stingray",
         "year": 2022,
-        "engine": "2.0L 4cyl",
-        "trim": "Rubicon",
+        "engine": "8 Cylinder Engine",
+        "trim": "3LT",
         "transmission": "Automatic",
-        "body": "SUV, Crossover",
-        "colour": "White",
-        "fuel": "Other",
+        "body": "Coupe",
+        "colour": "Tension Blue",
+        "fuel": "Gasoline",
         "type": "New",
         "images": [
-            "specifications/JeepWrangler/s-l640.webp", "specifications/JeepWrangler/s-l6401.webp", "specifications/JeepWrangler/s-l6402.webp"
+            "specifications/ChevroletCorvette/1.jpg", "specifications/ChevroletCorvette/3.webp", "specifications/ChevroletCorvette/4.webp"
         ],
-        "desc": "THE WORLD'S MOST ICONIC JEEP HAS BEEN ELECTRIFIED! THE NEW HYBRID 4XE WRANGLER PLUG-IN HAS ARRIVED!!! WITH UNMATCHED JEEP FUN CAPABILITY, YOU GET THE BEST OF BOTH WORLDS... THEY'VE GONE ELECTRIC! DRIVE THE \" HOV LANE \" BY YOURSELF! ENJOY INCREDIBLE MILEAGE, REDUCED EMISSIONS, AND THE JEEP WE LOVE TO GO ANYWHERE AND DO ANYTHING! BE THE FIRST TO PARTICIPATE IN JEEP'S FUTURE AND #PLUGINWITHPEEL! CHECK OUT THE \" PLUG SHARE APP \" FOR THOUSANDS OF PLACES TO CHARGE, MANY OF WHICH ARE FREE!!"
+        "desc": "In addition to the all-new IMSA GTLM Championship Edition, the 2022 Corvette Stingray lineup features three new exterior colors: Hypersonic Gray, Caffeine and Amplify Orange Tintcoat 1. A new low-profile rear spoiler and the Z51 design front splitter will be offered on non-Z51 models."
     },
     {
-        "make": "Jeep",
-        "model": "Wrangler",
+        "name": "Toyota Tundra PLATINUM LIFTED POWER BOARDS*22",
+        "make": "Toyota",
+        "model": "Tundra",
         "year": 2022,
-        "engine": "2.0L 4cyl",
-        "trim": "Rubicon",
+        "engine": "3.5L V6 i-FORCE (389 HP)",
+        "trim": "Platinum",
         "transmission": "Automatic",
-        "body": "SUV, Crossover",
-        "colour": "White",
-        "fuel": "Other",
+        "body": "Pickup Truck",
+        "colour": "Black",
+        "fuel": "Gasoline",
         "type": "New",
         "images": [
-            "specifications/JeepWrangler/s-l640.webp", "specifications/JeepWrangler/s-l6401.webp", "specifications/JeepWrangler/s-l6402.webp"
+            "specifications/ToyotaTundra/1.jpg", "specifications/ToyotaTundra/2.jpg", "specifications/ToyotaTundra/3.jpg", "specifications/ToyotaTundra/4.jpg"
         ],
-        "desc": "THE WORLD'S MOST ICONIC JEEP HAS BEEN ELECTRIFIED! THE NEW HYBRID 4XE WRANGLER PLUG-IN HAS ARRIVED!!! WITH UNMATCHED JEEP FUN CAPABILITY, YOU GET THE BEST OF BOTH WORLDS... THEY'VE GONE ELECTRIC! DRIVE THE \" HOV LANE \" BY YOURSELF! ENJOY INCREDIBLE MILEAGE, REDUCED EMISSIONS, AND THE JEEP WE LOVE TO GO ANYWHERE AND DO ANYTHING! BE THE FIRST TO PARTICIPATE IN JEEP'S FUTURE AND #PLUGINWITHPEEL! CHECK OUT THE \" PLUG SHARE APP \" FOR THOUSANDS OF PLACES TO CHARGE, MANY OF WHICH ARE FREE!!"
+        "desc": "2022 TOYOTA TUNDRA PLATINUM JUST LIFTED BY BAYSHORE AUTOMOTIVE IN SUNNY TAMPA, FLORIDA! THIS BLACK BEAST IS AMAZING! ITS LOADED UP WITH: FACTORY POWER RUNNING BOARDS 22 \" 4 PLAY WHEELS 35 \" NITTO RIDGE GRAPPLERS 14 \" NAV SCREEN HEATED AND COOLED SEATS HEADS UP "
     },
     {
-        "make": "Jeep",
-        "model": "Wrangler",
+        "name": "2022 LEXUS LX FOUR WHEEL DRIVE SUV",
+        "make": "LEXUS",
+        "model": "LX",
         "year": 2022,
-        "engine": "2.0L 4cyl",
-        "trim": "Rubicon",
+        "engine": "3.5L V6 DOHC 24V",
+        "trim": "LX 600",
         "transmission": "Automatic",
-        "body": "SUV, Crossover",
-        "colour": "White",
-        "fuel": "Other",
+        "body": "SUV",
+        "colour": "Atomic Silver",
+        "fuel": "Gasoline",
         "type": "New",
         "images": [
-            "specifications/JeepWrangler/s-l640.webp", "specifications/JeepWrangler/s-l6401.webp", "specifications/JeepWrangler/s-l6402.webp"
+            "specifications/LEXUSLX/1.jpg", "specifications/LEXUSLX/2.jpg", "specifications/LEXUSLX/3.jpg", "specifications/LEXUSLX/4.jpg"
         ],
-        "desc": "THE WORLD'S MOST ICONIC JEEP HAS BEEN ELECTRIFIED! THE NEW HYBRID 4XE WRANGLER PLUG-IN HAS ARRIVED!!! WITH UNMATCHED JEEP FUN CAPABILITY, YOU GET THE BEST OF BOTH WORLDS... THEY'VE GONE ELECTRIC! DRIVE THE \" HOV LANE \" BY YOURSELF! ENJOY INCREDIBLE MILEAGE, REDUCED EMISSIONS, AND THE JEEP WE LOVE TO GO ANYWHERE AND DO ANYTHING! BE THE FIRST TO PARTICIPATE IN JEEP'S FUTURE AND #PLUGINWITHPEEL! CHECK OUT THE \" PLUG SHARE APP \" FOR THOUSANDS OF PLACES TO CHARGE, MANY OF WHICH ARE FREE!!"
+        "desc": "Key safety features include: Standard automated emergency braking with pedestrian-and-bicyclist detection. Standard lane-departure warning with lane-keeping assist. Standard adaptive cruise control."
+    },
+    {
+        "name": "2022 Land Rover Defender",
+        "make": "Land Rover",
+        "model": "Defender 110",
+        "year": 2022,
+        "engine": "3.0L Turbo I6 395hp",
+        "trim": "X-Dynamic HSE",
+        "transmission": "Shiftable Automatic",
+        "body": "Style 110",
+        "colour": "Gondwana Stone",
+        "fuel": "Gasoline",
+        "type": "New",
+        "images": [
+            "specifications/LandRoverDefender/1.jpg", "specifications/LandRoverDefender/2.jpg", "specifications/LandRoverDefender/3.jpg", "specifications/LandRoverDefender/4.jpg"
+        ],
+        "desc": "Unlimited possibilities. Make more of your world, choose from four accessory packs. Designed with integrity, durable and equipped with 21st century technology. Distinctive Design. All-Terrain Capability. New Infotainment System."
+    },
+    {
+        "name": "2022 Ford F-150 Raptor",
+        "make": "Ford",
+        "model": "F-150",
+        "year": 2022,
+        "engine": "3.5L V6 Twin Turbocharger",
+        "trim": "Raptor",
+        "transmission": "Automatic",
+        "body": "Pickup Truck",
+        "colour": "Orange",
+        "fuel": "Gasoline",
+        "type": "New",
+        "images": [
+            "specifications/FordF-150/1.jpg", "specifications/FordF-150/2.jpg", "specifications/FordF-150/3.jpg", "specifications/FordF-150/4.jpg"
+        ],
+        "desc": "The 2022 Ford F-150 Raptor R takes F-150 Raptor performance to an entirely new level. It will likely feature a variation of the supercharged 5.2-liter V-8 that's in the Mustang Shelby GT500, with an output of 760 hp and 625 lb-ft of torque."
+    },
+    {
+        "name": "2022 Toyota Sienna 7 Passenger XSE",
+        "make": "Toyota",
+        "model": "Sienna",
+        "year": 2022,
+        "engine": "4 Cylinder Engine",
+        "trim": "XSE",
+        "transmission": "Automatic",
+        "body": "Minivan",
+        "colour": "Super White",
+        "fuel": "Hybrid",
+        "type": "New",
+        "images": [
+            "specifications/ToyotaSienna/1.jpg", "specifications/ToyotaSienna/2.jpg", "specifications/ToyotaSienna/3.jpg", "specifications/ToyotaSienna/4.jpg"
+        ],
+        "desc": "The 2022 Sienna offers many premium features across the model line (depending on model grade), such as kick-open and closed sliding side doors and rear gate, four-zone climate control system, heated second-row Super-Long Slide captain’s chairs with ottomans, power tilt and telescoping steering column with heated steering wheel, a digital rear-view mirror, 10-in. color head-up display and 12-speaker JBL® Premium Audio system."
     }
 ]

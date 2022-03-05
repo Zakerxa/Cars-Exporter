@@ -13,7 +13,7 @@ html {
 }
 
 .carouselImg {
-    height: 90vh;
+    height: 80vh;
 }
 
 .carouselImgAbout {
@@ -37,18 +37,46 @@ html {
     font-weight: bold;
 }
 
-@media screen and (min-width: 993px) and (max-width: 1450px) {
+.overlaytext {
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+.upper {
+    top: 0;
+    left: 20px;
+}
+
+.specificationsImg {
+    height: 100px;
+}
+
+@media screen and (min-width: 993px) and (max-width: 1600px) {
     .carouselImg {
-        height: 90vh;
+        height: 85vh;
+    }
+    /* .overlaytext {
+        top: 0;
+        left: 0;
+        padding: 10px;
+        background-color: rgb(0, 0, 0, 0.6);
+    } */
+    .specificationsImg {
+        height: 140px;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .carouselImg {
-        height: 75vh;
+        height: 70vh;
     }
     .carouselImgAbout {
         height: 30vh;
+    }
+    .specificationsImg {
+        height: 120px;
     }
     /* .leftside>div {
         background-color: #fff;
