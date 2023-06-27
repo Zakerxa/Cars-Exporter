@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="keywords" content="THIDAAUTOCENTER ,THIDA AUTOCENTER ,THIDA AUTO CENTER">
-    <meta name="description" content="THIDA AUTO CENTER is a US based company and under the THIDA CONSULTING GROUP LLC.">
+    <meta name="description" content="Thida Auto Center is a US based professional car export company and we offer one stop car import service worldwide.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css">
@@ -16,85 +16,18 @@
 
 <body>
 
-    <div id="loading" style="height:100vh; background: rgba(255, 255, 255, 1);z-index:190000;position:fixed;width:100vw;">
-        <!-- Show Loading if Data not ready yet -->
-        <div class="row d-flex align-items-center" style="height:100vh;width:100vw;">
-            <div class="col-12 text-center">
-                <img class="pt-4" src="image/logoT.png" width="100 " alt=" ">
-                <p class="fw-bold">THIDA AUTO CENTER </p>
-                <p>Prestige Car Sourcing Specialist and Export Worldwide</p>
-            </div>
-        </div>
-    </div>
+    <?php include('./components/loading.php') ?>
 
 
     <div id="app" style="background-color: #fff;">
 
         <div class="d-none d-md-block" style="min-height: 10px;;background-color: #fff;"></div>
+
         <!-- Nav Bar Desktop -->
-        <nav class="navbar d-block navbar-expand-md navbar-dark primaryColor">
-            <div class="container-fluid">
-
-                <div @click="navigatorClick()" :style="navTran" :class="navIcon" style="font-size: 25px;" class="navbar-toggler border-0 p-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#nav-small-device" aria-controls="offcanvasWithBackdrop">
-                </div>
-
-                <span class="text-light d-md-none fw-bold">THIDA AUTO CENTER </span>
-
-                <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="m-auto"></ul>
-                    <ul class="navbar-nav me-auto mb-lg-0  m-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home <span class="text-light m-2">|</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">About Us <span
-                                    class="text-light m-2">|</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact Us</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav mb-2 mb-lg-0">
-                        <span class="text-light fw-bold">THIDA AUTO CENTER </span>
-                    </ul>
-                </div>
-
-            </div>
-        </nav>
+        <?php include('./components/nav-desktop.php') ?>
 
         <!-- NavBar Mobile -->
-        <div class="offcanvas offcanvas-top h-100 bg-light" style="z-index: 19999;top: 49px;" tabindex="-1" id="nav-small-device" aria-labelledby="offcanvasWithBackdropLabel">
-            <div class="offcanvas-body">
-                <div class="row pt-5 justify-content-center">
-                    <div class="col-12 text-center pt-2">
-                        <li class="list-unstyled border-bottom pb-4">
-                            <a class="fw-bold text-dark text-decoration-none" aria-current="page" href="index.html">
-                                <h4>Home</h4>
-                            </a>
-                        </li>
-                        <li class="list-unstyled border-bottom pt-4 pb-4">
-                            <a class="fw-bold text-dark text-decoration-none" href="about.html">
-                                <h4>About Us</h4>
-                            </a>
-                        </li>
-                        <li class="list-unstyled border-bottom pt-4 pb-4">
-                            <a class="fw-bold text-dark text-decoration-none" href="contact.html">
-                                <h4>Contact Us</h4>
-                            </a>
-                        </li>
-                    </div>
-                    <div class="col-12 text-center position-fixed" style="bottom: 0;">
-                        <img class="pt-4" src="image/logoT.png" width="100 " alt=" ">
-                        <p class="fw-bold">THIDA AUTO CENTER </p>
-                        <p>Prestige Car Sourcing Specialist and Export Worldwide</p>
-                        <div class="col-12 small">
-                            <hr>
-                            <p>Read Our <a class="text-decoration-none" href="privacy.html">Privacy Policy</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?php include('./components/nav-mobile.php') ?>
 
         <!-- Start Hero -->
         <div class="container-fluid">
@@ -197,8 +130,8 @@
                           <span class="visually-hidden">Previous</span>
                         </button> -->
                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
                         </button>
                     </div>
                 </div>
@@ -213,7 +146,7 @@
 
                         <h4 class="text-start pt-3 fw-normal p-0">Who We Are !</h4>
                         <p class="text-start pb-2">
-                            THIDA AUTO CENTER is a US based company and under the THIDA CONSULTING GROUP LLC.
+                            Thida Auto Center is a US based professional car export company and we offer one stop car import service worldwide.
                         </p>
                         <hr>
                         <h4 class="text-start pt-3 fw-normal p-0">Why Choose Us? </h4>
@@ -247,9 +180,9 @@
                         <h4 class="text-start pt-3 fw-normal p-0">Our Promise!</h4>
                         <p class="text-start">
                             Our goal is to build a long term mutually beneficial relationship with our clients by providing a 100% dedication, reliability, confidence, and peaceful buying experience to every single client for all the products and services we supply.
-                            <p>
-                                YOU NAME IT, WE GUARANTEE TO PROVIDE YOU ANY VEHICLE YOU NEED!
-                            </p>
+                        <p>
+                            YOU NAME IT, WE GUARANTEE TO PROVIDE YOU ANY VEHICLE YOU NEED!
+                        </p>
                         </p>
                     </div>
                 </div>
@@ -272,7 +205,7 @@
 
                                 <hr class="mb-4">
                                 <p class="p-0 text-start">
-                                    <span class="">THIDA AUTO CENTER</span> is a US based company and under the THIDA CONSULTING GROUP LLC.
+                                    Thida Auto Center is a professional car export company and we export the cars worldwide.
                                 </p>
                             </div>
 
@@ -284,7 +217,7 @@
 
                                 <h4 class="text-start pt-3 fw-normal p-0">Who We Are !</h4>
                                 <p class="text-start pb-2">
-                                    THIDA AUTO CENTER is a US based company and under the THIDA CONSULTING GROUP LLC.
+                                    Thida Auto Center is a US based professional car export company and we offer one stop car import service worldwide.
                                 </p>
                                 <hr>
                                 <h4 class="text-start pt-3 fw-normal p-0">Why Choose Us? </h4>
@@ -317,10 +250,10 @@
                                 <hr>
                                 <h4 class="text-start pt-3 fw-normal p-0">Our Promise!</h4>
                                 <p class="text-start">
-                                    Our goal is to build a long term mutually beneficial relationship with our clients by providing a 100% dedication, reliability, confidence, and peaceful buying experience to every single client for all the products and services we supply.
-                                    <p>
-                                        YOU NAME IT, WE GUARANTEE TO PROVIDE YOU ANY VEHICLE YOU NEED!
-                                    </p>
+                                    Our goal is to build a long term mutual beneficial relationship with our clients by providing a 100% dedication, reliability, confidence, and peaceful buying experience to every single client for all the products and services we supply.
+                                <p>
+                                    YOU NAME IT, WE GUARANTEE TO PROVIDE YOU ANY VEHICLE YOU NEED!
+                                </p>
                                 </p>
                             </div>
 
@@ -372,8 +305,7 @@
             <div class="row pt-3">
                 <div class="col-12 p-0">
                     <div class="mapouter">
-                        <div class="gmap_canvas"><iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=7480%20Birdwood%20Ave,%20321%20%20McLean,%20VA%2022102&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0"
-                                marginwidth="0"></iframe>
+                        <div class="gmap_canvas"><iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=7480%20Birdwood%20Ave,%20321%20%20McLean,%20VA%2022102&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                         </div>
                     </div>
                 </div>
@@ -382,84 +314,7 @@
         </div>
 
         <!-- Footer -->
-        <div class="footer container-fluid text-light small fw-bold">
-            <div class="row p-3 primaryColor">
-                <div class="col-12 pt-2 pb-2 text-center">
-                    <h5>LET'S GET IN TOUCH</h5>
-                </div>
-
-                <div class="col-12 col-md-4 pt-3 pt-md-0 text-start p-0">
-                    <div class="text-center position-relative" style="top:-20px;">
-                        <img src="image/logoT.png" width="100 " alt=" ">
-                        <p class="fw-bold mb-1">THIDA CONSULTING GROUP LLC</p>
-                        <p class="fw-light pb-3">TECHNOLOGY, SUPPLY CHAIN AND PROCUREMENT</p>
-                        <hr class="d-md-none mb-0">
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-4 pt-3 pt-md-4 text-center order-1 order-md-0 p-0">
-                    <div class="row justify-content-center">
-                        <div class="col-12 pb-3 text-start text-md-center">
-                            <p>Call us with any Question !</p>
-                            <p>
-                                <i class="fab fa-whatsapp fw-bold"> Whatsapp :</i>
-                                <a class="text-decoration-none text-light" href="https://api.whatsapp.com/send?phone=+1 (703) 869-2117">+1 (703) 869-2117</a>
-                            </p>
-                        </div>
-                        <hr>
-                        <div class="col-6 col-md-6 pt-2 text-center">
-                            <a class="text-decoration-none" href="about.html">
-                                <p class="text-light">About Us</p>
-                            </a>
-                        </div>
-                        <div class="col-6 col-md-6 pt-2 text-center">
-                            <a class="text-decoration-none" href="contact.html">
-                                <p class="text-light">Contact Us</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class=" col-12 col-md-4 pt-3 pt-md-0 text-center order-0 order-md-1 p-0">
-                    <div class="row justify-content-start justify-content-md-end p-0">
-                        <div class="col-2 text-start pb-3 text-md-end">
-                            <i class="fa fa-phone"></i> <span class="d-inline-block" style="padding-left:5px;">:</span>
-                        </div>
-                        <div class="col-9 p-0 pb-3 text-start">
-                            <a class="text-light text-decoration-none" href="tel:+1 (703) 869-2117">+1 (703)
-                                869-2117</a>
-                        </div>
-
-                        <div class="col-2 text-start pb-3 text-md-end">
-                            <i class="fa fa-envelope"></i> <span class="d-inline-block" style="padding-left:5px;">:</span>
-                        </div>
-                        <div class="col-9 p-0 pb-3 text-start">
-                            <a class="text-light text-decoration-none" href="">INFO@THIDAAUTOCENTER.COM</a>
-                        </div>
-
-                        <div class="col-2 text-start pb-3 text-md-end"><i class="fa fa-map"></i> <span class="d-inline-block" style="padding-left:5px;">:</span></div>
-                        <div class="col-9 p-0 pb-3 text-start">
-                            <p class="mb-0">136-4 Forum Drive, Suite 311</p>
-                            <p class="mb-0">Columbia, SC 29229</p>
-                        </div>
-
-                        <div class="col-2 text-start pb-3 text-md-end"><i class="fa fa-map"></i> <span class="d-inline-block" style="padding-left:5px;">:</span> </div>
-                        <div class="col-9 p-0 pb-3 text-start">
-                            <p class="mb-0">7480 Birdwood Ave, 321</p>
-                            <p class="mb-0">McLean, VA 22102</p>
-                        </div>
-                    </div>
-                    <p class="mb-0 p-1 p-md-2 small fw-bold ">
-                    </p>
-
-                </div>
-
-            </div>
-            <div class="row pt-3 justify-content-center m-0 bg-light ">
-                <p class="text-center text-dark" style="font-size: 11px;">@2022 THIDA CONSULTING GROUP. All Rights Reserved.Read Our <a href="privacy.html ">Privacy Policy</a>.</p>
-            </div>
-        </div>
+        <?php include('./components/footer.php') ?>
 
 
     </div>

@@ -14,83 +14,18 @@
 
 <body>
 
-    <div id="loading" style="height:100vh; background: rgba(255, 255, 255, 1);z-index:190000;position:fixed;width:100vw;">
-        <!-- Show Loading if Data not ready yet -->
-        <div class="row d-flex align-items-center" style="height:100vh;width:100vw;">
-            <div class="col-12 text-center">
-                <img class="pt-4" src="image/logoT.png" width="100 " alt=" ">
-                <p class="fw-bold">THIDA AUTO CENTER </p>
-                <p class="mb-0 text-uppercase">Worldwide Pickup Trucks & Suvs </p>
-                <p class="pb-2 text-uppercase">Export Specialist</p>
-            </div>
-        </div>
-    </div>
+    <?php include('./components/loading.php') ?>
 
-    <div id="policy" style="background-color:#fff">
+
+    <div id="policy" style="background-color: #fff;">
+
         <div class="d-none d-md-block" style="min-height: 10px;;background-color: #fff;"></div>
+
         <!-- Nav Bar Desktop -->
-        <nav class="navbar d-block navbar-expand-md navbar-dark primaryColor">
-            <div class="container-fluid">
-
-                <div @click="navigatorClick()" :style="navTran" :class="navIcon" style="font-size: 25px;" class="navbar-toggler border-0 p-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#nav-small-device" aria-controls="offcanvasWithBackdrop">
-                </div>
-
-                <span class="text-light fw-bold">THIDA AUTO CENTER </span>
-
-                <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav me-auto mb-lg-0  m-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home <span
-                                class="text-light m-2">|</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About Us <span class="text-light m-2">|</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact Us</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav mb-2 mb-lg-0">
-                        <span class="text-light" aria-current="page">Privacy Policy</span>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <?php include('./components/nav-desktop.php') ?>
 
         <!-- NavBar Mobile -->
-        <div class="offcanvas offcanvas-top h-100 bg-light" style="z-index: 19999;top: 49px;" tabindex="-1" id="nav-small-device" aria-labelledby="offcanvasWithBackdropLabel">
-            <div class="offcanvas-body">
-                <div class="row pt-5 justify-content-center">
-                    <div class="col-12 text-center pt-2">
-                        <li class="list-unstyled border-bottom pb-4">
-                            <a class="fw-bold text-dark text-decoration-none" aria-current="page" href="index.html">
-                                <h4>Home</h4>
-                            </a>
-                        </li>
-                        <li class="list-unstyled border-bottom pt-4 pb-4">
-                            <a class="fw-bold text-dark text-decoration-none" href="about.html">
-                                <h4>About Us</h4>
-                            </a>
-                        </li>
-                        <li class="list-unstyled border-bottom pt-4 pb-4">
-                            <a class="fw-bold text-dark text-decoration-none" href="contact.html">
-                                <h4>Contact Us</h4>
-                            </a>
-                        </li>
-                    </div>
-                    <div class="col-12 text-center position-fixed" style="bottom: 0;">
-                        <img class="pt-4" src="image/logoT.png" width="100 " alt=" ">
-                        <p class="fw-bold">THIDA AUTO CENTER </p>
-                        <p class="mb-0">Worldwide Pickup Trucks & Suvs </p>
-                        <p class="pb-2">Export Specialist</p>
-                        <div class="col-12 small">
-                            <hr>
-                            <p>Read Our <a class="text-decoration-none" href="privacy.html">Privacy Policy</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?php include('./components/nav-mobile.php') ?>
 
         <div class="container-fluid">
             <div class="row">
@@ -99,7 +34,8 @@
 
                     <p>At THIDA AUTO CENTER, accessible from
                         <a href="https://www.thidaautocenter.com">WWW.THIDAAUTOCENTER.COM</a>, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by THIDA
-                        AUTO CENTER and how we use it.</p>
+                        AUTO CENTER and how we use it.
+                    </p>
 
                     <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>
 
@@ -190,8 +126,7 @@
             <div class="row pt-3">
                 <div class="col-12 p-0">
                     <div class="mapouter">
-                        <div class="gmap_canvas"><iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=7480%20Birdwood%20Ave,%20321%20%20McLean,%20VA%2022102&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0"
-                                marginwidth="0"></iframe>
+                        <div class="gmap_canvas"><iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=7480%20Birdwood%20Ave,%20321%20%20McLean,%20VA%2022102&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                         </div>
                     </div>
                 </div>
@@ -200,84 +135,8 @@
         </div>
 
         <!-- Footer -->
-        <div class="footer container-fluid text-light small fw-bold">
-            <div class="row p-3 primaryColor">
-                <div class="col-12 pt-2 pb-2 text-center">
-                    <h5>LET'S GET IN TOUCH</h5>
-                </div>
+        <?php include('./components/footer.php') ?>
 
-                <div class="col-12 col-md-4 pt-3 pt-md-0 text-start p-0">
-                    <div class="text-center position-relative" style="top:-20px;">
-                        <img src="image/logoT.png" width="100 " alt=" ">
-                        <p class="fw-bold mb-1">THIDA CONSULTING GROUP LLC</p>
-                        <p class="fw-light pb-3">TECHNOLOGY, SUPPLY CHAIN AND PROCUREMENT</p>
-                        <hr class="d-md-none mb-0">
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-4 pt-3 pt-md-4 text-center order-1 order-md-0 p-0">
-                    <div class="row justify-content-center">
-                        <div class="col-12 pb-3 text-start text-md-center">
-                            <p>Call us with any Question !</p>
-                            <p>
-                                <i class="fab fa-whatsapp fw-bold"> Whatsapp :</i>
-                                <a class="text-decoration-none text-light" href="https://api.whatsapp.com/send?phone=+1 (703) 869-2117">+1 (703) 869-2117</a>
-                            </p>
-                        </div>
-                        <hr>
-                        <div class="col-6 col-md-6 pt-2 text-center">
-                            <a class="text-decoration-none" href="contact.html">
-                                <p class="text-light">Contact Us</p>
-                            </a>
-                        </div>
-                        <div class="col-6 col-md-6 pt-2 text-center">
-                            <a class="text-decoration-none" href="about.html">
-                                <p class="text-light">About Us</p>
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <div class=" col-12 col-md-4 pt-3 pt-md-0 text-center order-0 order-md-1 p-0">
-                    <div class="row justify-content-start justify-content-md-end p-0">
-                        <div class="col-2 text-start pb-3 text-md-end">
-                            <i class="fa fa-phone"></i> <span class="d-inline-block" style="padding-left:5px;">:</span>
-                        </div>
-                        <div class="col-9 p-0 pb-3 text-start">
-                            <a class="text-light text-decoration-none" href="tel:+1 (703) 869-2117">+1 (703) 869-2117</a>
-                        </div>
-
-                        <div class="col-2 text-start pb-3 text-md-end">
-                            <i class="fa fa-envelope"></i> <span class="d-inline-block" style="padding-left:5px;">:</span>
-                        </div>
-                        <div class="col-9 p-0 pb-3 text-start">
-                            <a class="text-light text-decoration-none" href="">INFO@THIDAAUTOCENTER.COM</a>
-                        </div>
-
-                        <div class="col-2 text-start pb-3 text-md-end"><i class="fa fa-map"></i> <span class="d-inline-block" style="padding-left:5px;">:</span></div>
-                        <div class="col-9 p-0 pb-3 text-start">
-                            <p class="mb-0">136-4 Forum Drive, Suite 311</p>
-                            <p class="mb-0">Columbia, SC 29229</p>
-                        </div>
-
-                        <div class="col-2 text-start pb-3 text-md-end"><i class="fa fa-map"></i> <span class="d-inline-block" style="padding-left:5px;">:</span> </div>
-                        <div class="col-9 p-0 pb-3 text-start">
-                            <p class="mb-0">7480 Birdwood Ave, 321</p>
-                            <p class="mb-0">McLean, VA 22102</p>
-                        </div>
-                    </div>
-                    <p class="mb-0 p-1 p-md-2 small fw-bold ">
-                    </p>
-
-                </div>
-
-            </div>
-            <div class="row pt-3 justify-content-center m-0 bg-light ">
-                <p class="text-center text-dark" style="font-size: 11px;">@2022 THIDA CONSULTING GROUP. All Rights Reserved.Read Our <a href="privacy.html ">Privacy Policy</a>.</p>
-            </div>
-        </div>
     </div>
 
 

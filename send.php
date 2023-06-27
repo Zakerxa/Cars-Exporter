@@ -43,7 +43,7 @@ if(isset($_POST['name']) || isset($_POST['email']) || isset($_POST['phone'])){
 
    
 }else{
-    header("location:contact.html");
+    header("location:contact.php");
     die();
 }
 
