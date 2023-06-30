@@ -4,9 +4,9 @@ class Database
 {
 	public function connection(){
 		$db_host = "localhost";
-		$db_name = "thida";
-		$db_username = "root";
-		$db_password = "Pass@1234";
+		$db_name = "zkurpszw_thida";
+		$db_username = "zkurpszw_thida";
+		$db_password = "sUia8qIdF}5j";
 		
 		$dsn_db = 'mysql:host='.$db_host.';dbname='.$db_name.';charset=utf8mb4';
 		try{
