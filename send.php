@@ -22,13 +22,13 @@ if(isset($_POST['name']) || isset($_POST['email']) || isset($_POST['phone'])){
     // Check User Mail is Valid or Not
     if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
 
-        $stmtSendMsg = $pdo->prepare("INSERT INTO clients (`username`,`phone`,`message`,`email`,`read`,`created_at`) VALUES(:username,:phone,:msg,:email,0,:userdate)");
+        $stmtSendMsg = $pdo->prepare("INSERT INTO clients (`username`,`phone`,`message`,`email`,`read`) VALUES(:username,:phone,:msg,:email,0)");
         //BIND VALUES
         $stmtSendMsg->bindValue(':username', htmlspecialchars($name), PDO::PARAM_STR);
         $stmtSendMsg->bindValue(':email', strtolower($email));
         $stmtSendMsg->bindValue(':phone', $phone, PDO::PARAM_STR);
         $stmtSendMsg->bindValue(':msg', $message, PDO::PARAM_STR);
-        $stmtSendMsg->bindValue(':userdate', htmlspecialchars($date), PDO::PARAM_STR);
+        // $stmtSendMsg->bindValue(':userdate', htmlspecialchars($date), PDO::PARAM_STR);
         // Execute
         $insertUser = $stmtSendMsg->execute();
         if($insertUser){
