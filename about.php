@@ -4,9 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="THIDAAUTOCENTER ,THIDA AUTOCENTER ,THIDA AUTO CENTER">
-    <meta name="description" content="Thida Auto Center is a US based professional car export company and we offer one stop car import service worldwide.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php include("./mata.php") ?>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
